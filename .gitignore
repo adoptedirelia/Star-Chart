@@ -161,4 +161,4 @@ cython_debug/
 
 **/inner_pic/
 **/pic/
-*.jpg
+./res.jpg
