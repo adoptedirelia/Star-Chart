@@ -4,6 +4,7 @@ import numpy as np
 from config import config
 import os
 import random
+import tqdm
 
 # 改变图像大小
 def resize_image(input_image_path, output_image_path, new_width, new_height):
@@ -52,7 +53,7 @@ def concatenate_images():
 
     x_offset = 0
     y_offset = 0
-    for x in range(w):
+    for x in tqdm.trange(w):
         for y in range(h):
             #print(f"{x},{y}")
             part = Image.open(config.inner_dir+files[random.randint(0,total-1)])

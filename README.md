@@ -16,4 +16,6 @@ python utils.py
 即可得到结果
 
 # 效果展示(迪丽热巴)
-![](./res.jpg)
+由于github文件大小限制，所以目的图像分辨率很低
+
+![](./readme/res.jpg)

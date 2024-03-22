@@ -1,9 +1,9 @@
 # input picture
 input_dir = './pic/'
-input_id = 'dlrb.jpeg'
+input_id = 'dlrb3.jpeg'
 input_output = './pic_output/'
 input_output_id = 'output.jpg'
-ratio = 0.2
+ratio = 0.5
 
 # inner picture
 pre_dir = './inner_pic/'
